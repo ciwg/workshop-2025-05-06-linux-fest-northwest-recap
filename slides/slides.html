@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Welcome to Remark.js</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.css">
+  <style>
+    pre {
+            font-size: 12px;
+            scrollbar-width: auto;
+            background: #f5f5f5;
+            padding: 6px;
+            display: block;
+            max-height: 300px;
+            overflow-y: auto;
+            overflow-x: auto;
+            white-space: pre;
+            }
+  </style>
+</head>
+<body>
+  
+  <textarea id="source">
+class: center, middle
+
+# Welcome to Remark.js
+
+---
+
+## Agenda
+
+1. Introduction to Remark.js
+2. Features and Benefits
+3. How to Create Slides
+4. Live Demo
+
+---
+
+## Introduction to Remark.js
+
+- Markdown-driven slideshow tool
+- Runs directly in your browser
+- Highly customizable with CSS and JavaScript
+
+---
+
+## Features and Benefits
+
+### Features:
+- Simple Markdown syntax
+- Supports speaker notes and incremental slides
+- Integrates LaTeX for math expressions
+
+### Benefits:
+- No additional software required
+- Lightweight and responsive
+- Open-source and free to use
+
+---
+
+## How to Create Slides
+
+1. Write your slides in this Markdown file (e.g., `slides.md`).
+2. `go run main.go` to generate and host `slides.html`, or just run `make`
+   in the slides directory.
+
+---
+
+## Live Demo
+
+&gt; &#34;The best way to learn is by doing!&#34;  
+&gt; Start creating your own presentation now.
+
+---
+
+## Code Example
+
+```go
+package main
+
+import &#34;fmt&#34;
+
+// a long function that causes the code block to need a scrollbar
+// to demonstrate that code blocks can be scrolled
+func longFunction() {
+    // do nothing for several lines
+    fmt.Println(&#34;Hello, World!&#34;)
+    fmt.Println(&#34;Hello, World!&#34;)
+    fmt.Println(&#34;Hello, World!&#34;)
+    fmt.Println(&#34;Hello, World!&#34;)
+    fmt.Println(&#34;Hello, World!&#34;)
+    fmt.Println(&#34;Hello, World!&#34;)
+    fmt.Println(&#34;Hello, World!&#34;)
+    fmt.Println(&#34;Hello, World!&#34;)
+    fmt.Println(&#34;Hello, World!&#34;)
+    fmt.Println(&#34;Hello, World!&#34;)
+    fmt.Println(&#34;Hello, World!&#34;)
+    fmt.Println(&#34;Hello, World!&#34;)
+}
+
+func main() {
+    fmt.Println(&#34;Hello, World!&#34;)
+}
+```
+
+---
+
+## Image Example
+
+Locally hosted image, scaled to 40% of the slide width:
+
+![:img Local Image, 40%](images/logo.svg)
+
+Remotely hosted image:
+![Remark.js Logo](https://raw.githubusercontent.com/remarkjs/remark/1f338e72/logo.svg?sanitize=true)
+
+---
+
+class: center, middle
+
+# Thank You!
+
+
+  </textarea>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"></script>
+  <script>
+    
+    remark.macros.img = function (altText, width) { var url = this; return '<img alt="' +
+      altText + '" src="' + url + '" style="width: ' + width + '" />';
+    };
+    
+    var slideshow = remark.create({
+      ratio: '16:9',
+      navigation: {
+        scroll: true,   
+        touch: true     
+      }
+    });
+  </script>
+  <script>
+    
+    var ws = new WebSocket("ws://" + window.location.host + "/ws");
+    ws.onmessage = function(event) {
+      if (event.data === "reload") {
+        window.location.reload();
+      }
+    };
+  </script>
+</body>
+</html>
