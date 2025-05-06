@@ -35,15 +35,6 @@
 
 ---
 
-# WASM Workloads on Kubernetes
-### Christopher Valerio
-- WebAssembly + K8s = lightweight cloud-native apps
-- Potential to reshape cloud computing
-
-**My Take:** *Disappointing. Zoom-only, bad lighting, no airflow—watch the YouTube recording instead.*
-
----
-
 # Credential Management Quest
 ### Shelby Palmersheim (BitLocker)
 - Free tools and resources
@@ -120,15 +111,11 @@ https://www.verificationlabs.com/lfnw25.html
 
 ---
 
-
----
-
 # The Power of In-Person
 - Many valuable connections made outside talks
 - Casual meetups led to deeper insights and collaboration
 - Don’t underestimate hallway conversations
 
----
 
 ---
 
@@ -171,26 +158,41 @@ https://www.youtube.com/watch?v=Cm4s0bhq5j0
 
 ### Show Your Supply Chain Transparency (SBOMs)
 - **What it is:** A clear, published list of every library and component inside your product (software and firmware).  
-- **Why it matters:** Builds trust and accelerates compliance reviews by making the exact contents of your product easy to verify.  
+- **Why it matters:** Builds trust and accelerates compliance reviews by making the exact contents of your product easy to verify. 
+- More that go.sum 
+
+---
+
+# Explaination from ChatGPT.. 
+**How security tools check SBOMs for vulnerabilities:**
+1. The tool opens the SBOM file (often JSON or XML).  
+2. It reads each component’s name and version.  
+3. It compares those entries against public vulnerability databases.  
+4. If a match is found, the tool reports the risky component.
+
+**Common SBOM formats:**
+- **SPDX (Software Package Data Exchange):** A structured text format (often JSON) listing components, versions, licenses, and checksums.  
+- **CycloneDX:** An XML or JSON format that includes component details, dependencies, and metadata.  
+- **Simple JSON lists:** Some tools use a plain JSON array of objects with `name`, `version`, and optional `checksum` fields.
 
 ---
 
 ### Offer a Clear “Security Contact” File
 - **What it is:** A small `security.txt` text file on your website or device portal that says “Here’s who to contact if you find a vulnerability.”  
-- **Why it matters:** Demonstrates a commitment to responsible disclosure and ensures reports reach the right people without delay.
+- **Why it matters:** Demonstrates a commitment to responsible disclosure and ensures reports reach the right people without delay.  
 
 ---
 
 ### Continuous “Health Checks” for Dependencies
 - **What it is:** Automated scans that monitor every third-party component for newly discovered vulnerabilities.  
-- **Why it matters:** Catches issues as soon as they’re announced, reducing urgent patch cycles and keeping release schedules predictable.
+- **Why it matters:** Catches issues as soon as they’re announced, reducing urgent patch cycles and keeping release schedules predictable.  
 
 ---
 
 ### Embed Security Checks into Daily Tools
 - **What it is:** Plugins or simple scripts that flag dependency or configuration issues directly within the editors and IDEs your developers already use.  
 - **Why it matters:** Integrates security feedback into everyday workflows, making it a seamless part of the development process.
-I know we have go vet and go test in Makefile, but is this where that would go?
+- I know we have go vet and go test in Makefile, but is this where that would go?
 
 ---
 
