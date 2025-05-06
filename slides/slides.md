@@ -1,5 +1,5 @@
-# LinuxFest Northwest 2025: Highlights & Reflections
-## A Personal Overview for Our Team
+# LinuxFest Northwest 2025 
+## Highlights & Reflections
 
 ---
 
@@ -7,7 +7,8 @@
 - First time at LinuxFest Northwest for most attendees
 - “Orientation: How to LFNW” repeated across the event
 - Gave helpful context and history
-- My Take: *Super helpful—great for first-timers like most of us*
+- Where to get coffee and food
+- My Take: *Super helpful—great for first-timers *
 
 ---
 
@@ -16,6 +17,8 @@
 - Jon "maddog" Hall
 - Helping students in developing countries build businesses using free/open source software & hardware
 - Self-directed, mentored, and zero cost
+- He focused on Brazil and the Labrador 
+
 
 **My Take:** *Maddog is always great—his stories are compelling. I even brought up Raspberry Pi tariffs.*
 
@@ -26,8 +29,9 @@
 - Struggles in rebooting local OSS meetups
 - PyLadies Vancouver post-COVID challenges
 - Offices are gone, layoffs, disconnected networks
+- People got so used to doing things online that they stopped going to in person activities
 
-**My Take:** *Disappointing—mostly Vancouver-specific, but I met people from my old groups!*
+**My Take:** *Disappointing—mostly Vancouver-specific, but I met people from 2 of my groups!*
 
 ---
 
@@ -42,8 +46,9 @@
 
 # Credential Management Quest
 ### Shelby Palmersheim (BitLocker)
-- Password and credential management strategies
-- Tailored to individuals and organizations
+- Free tools and resources
+- Includes authenticatotor apps, password managers, and more
+
 
 **My Take:** *Felt like a sales pitch—but honestly, it helped me solve a few personal issues.*
 
@@ -54,7 +59,7 @@
 - Human error = 95% of cybersecurity incidents
 - The era of AI + misinformation needs better education
 
-**My Take:** *Incredible speaker. Large auditorium, yet it felt like a personal conversation.*
+**My Take:** *Incredible speaker. Large auditorium, yet it felt like a personal conversation.  This turned into a talk about helping people understand basic technology.  For instance, seniors or people on the spectrum*
 
 ---
 
@@ -63,12 +68,13 @@
 - Created excitement and energy
 - Everyone looked forward to it
 
-**My Take:** *Unexpectedly one of the most engaging parts of the conference!*
+**My Take:** This is where they did the conference wide announcements, since no real keynote.  *Unexpectedly one of the most engaging parts of the conference!*
 
 ---
 
 # Social Dinner & Pub Night
 - Sat with new people at dinner—instant friends!
+- Many were speakers from over the world.  Sat with people from Puerto Rico, Brazil, and the UK
 - Continued bonding at the pub afterward
 
 **My Take:** *Would be great to have singles-friendly zones. Still, I found my group by asking!*
@@ -81,6 +87,7 @@
 - Focused, beginner-friendly
 
 **My Take:** *Fantastic. Loved that he gave out slides—could just absorb the talk and learn.*
+https://docs.google.com/presentation/d/1LJ2DVz4NZhG1jxhc_SGYy4Ulg7LQMy0c8MeN7Ol9OSc/edit#slide=id.p
 
 ---
 
@@ -97,8 +104,10 @@
 ### Trey Blalock (Verification Labs)
 - Fast-paced, practical, focused on Internet security
 - Why Linux stands out in the security landscape
+- Almost 100 slides with lots of references.  This was extremely fast paced since it was only an hour.
 
 **My Take:** *Really informative. Specific tips we could adopt—Linux security matters!*
+https://www.verificationlabs.com/lfnw25.html
 
 ---
 
@@ -111,10 +120,6 @@
 
 ---
 
-# Key Observations
-- Most talks had a unique personal or community angle
-- Not every talk applied directly, but all gave insight into the ecosystem
-- Events beyond the talks were just as valuable (raffle, dinner)
 
 ---
 
@@ -124,32 +129,6 @@
 - Don’t underestimate hallway conversations
 
 ---
-
-# A Conference for Us
-- LinuxFest Northwest isn’t just for experts or devs
-- Useful for sysadmins, hobbyists, educators, and everyone in between
-- Open Source culture is welcoming and evolving
-
----
-
-# What Surprised Me
-- Talks I expected to love (WASM) fell flat
-- Talks I knew little about (Shelby’s, Autumn’s) ended up being highlights
-- Community vibe made it all worthwhile
-
----
-
-# What Could Be Improved
-- More interactive elements
-- Better venue ventilation/lighting
-- More guidance for solo attendees
-
----
-
-# What We Can Do as a Team
-- Share takeaways internally
-- Consider hosting local meetups or attending more OSS events
-- Start a mini-project inspired by Project Caua or Vim talk
 
 ---
 
@@ -161,6 +140,64 @@
 ---
 
 # Thank You!
-- Let’s keep the LinuxFest energy going
-- Questions? Want to discuss a session?
-- Let’s chat in the next team sync or over coffee!
+
+LinuxFest Northwest 2025
+https://www.youtube.com/@LinuxFestNorthwest/videos
+26 videos added in the last day!
+
+---
+# Videos of interest:
+
+## Maddog's career:
+https://www.youtube.com/watch?v=758QuvXrttM
+
+## AR glasses in the cockpit: 
+https://www.youtube.com/watch?v=lK9N1Boi3GI
+
+##VIM
+https://www.youtube.com/watch?v=Cm4s0bhq5j0
+
+
+---
+# Information Security Talk
+## Not on youtube....yet
+---
+
+### Map Your “Attack Surface”
+- **What it is:** A simple diagram or spreadsheet of every device, service, and third-party part you use.  
+- **Why it matters:** Provides a clear overview of potential vulnerabilities, helping teams prioritize where to strengthen defenses.
+
+---
+
+### Show Your Supply Chain Transparency (SBOMs)
+- **What it is:** A clear, published list of every library and component inside your product (software and firmware).  
+- **Why it matters:** Builds trust and accelerates compliance reviews by making the exact contents of your product easy to verify.  
+
+---
+
+### Offer a Clear “Security Contact” File
+- **What it is:** A small `security.txt` text file on your website or device portal that says “Here’s who to contact if you find a vulnerability.”  
+- **Why it matters:** Demonstrates a commitment to responsible disclosure and ensures reports reach the right people without delay.
+
+---
+
+### Continuous “Health Checks” for Dependencies
+- **What it is:** Automated scans that monitor every third-party component for newly discovered vulnerabilities.  
+- **Why it matters:** Catches issues as soon as they’re announced, reducing urgent patch cycles and keeping release schedules predictable.
+
+---
+
+### Embed Security Checks into Daily Tools
+- **What it is:** Plugins or simple scripts that flag dependency or configuration issues directly within the editors and IDEs your developers already use.  
+- **Why it matters:** Integrates security feedback into everyday workflows, making it a seamless part of the development process.
+I know we have go vet and go test in Makefile, but is this where that would go?
+
+---
+
+### Standardize Your “Safety Checklist”
+- **What it is:** Corporate policies like signed releases, two-factor login for all accounts, and enforced dependency pinning.  
+- **Why it matters:** Establishes consistent security guardrails that simplify audits and reinforce best practices across the organization.
+
+---
+
+
