@@ -1,4 +1,4 @@
-# LFNW2025
+# LinuxFest NorthWest 2025 Recap
 
 Linux Fest NorthWest 2025 summary.
 
