@@ -2,6 +2,9 @@
 
 Linux Fest NorthWest 2025 summary.
 
+## To View Presentation visit the GitHub Page: 
+https://ciwg.github.io/workshop-2025-05-06-linux-fest-northwest-recap/slides/slides.html#1
+
 ## Overview
 
 This repository contains the slide deck and a small Go-based live-reload server for presenting the Linux Fest NorthWest 2025 recap.
