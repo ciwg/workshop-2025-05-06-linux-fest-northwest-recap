@@ -1,3 +1,3 @@
 # LFNW2025
-Linux Fest North West 2025 summary
+Linux Fest NorthWest 2025 summary
                  
